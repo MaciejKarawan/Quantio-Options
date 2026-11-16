@@ -1,3 +1,4 @@
+from quanto_options.paths import generated_path
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -202,7 +203,7 @@ def perform_dual_model_hedging_frequency_test(paths, params, K,
     plt.tight_layout()
 
     if save: 
-        plt.savefig(f'{savename}.png', format='png', bbox_inches='tight', dpi=150)
+        plt.savefig(generated_path(f'{savename}.png'), format='png', bbox_inches='tight', dpi=150)
 
     # Przygotowanie statystyk
     stats_df = pd.DataFrame(results)

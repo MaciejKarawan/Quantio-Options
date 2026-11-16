@@ -1,3 +1,4 @@
+from quanto_options.paths import generated_path
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
@@ -334,7 +335,7 @@ def test_functions():
     
     #print("Test 1: Statyczny wykres")
     fig = plot_option_prices(params, K=1, t=1.0, option_type='call')
-    plt.savefig('static_plot_corrected.png', dpi=150, bbox_inches='tight')
+    plt.savefig(generated_path('static_plot_corrected.png'), dpi=150, bbox_inches='tight')
     plt.close()
     print("Statyczny wykres zapisany jako static_plot_corrected.png")
     
