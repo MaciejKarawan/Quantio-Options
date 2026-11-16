@@ -1,3 +1,4 @@
+from quanto_options.paths import generated_path
 """
 Przykłady użycia funkcji do generowania wykresów opcji quanto.
 Ten plik zawiera różne scenariusze testowe i przykłady użycia.
@@ -5,7 +6,7 @@ Ten plik zawiera różne scenariusze testowe i przykłady użycia.
 
 import numpy as np
 import matplotlib.pyplot as plt
-from option_plots_complete import plot_option_prices, calculate_option_prices
+from quanto_options.option_plots_complete import plot_option_prices, calculate_option_prices
 
 def example_basic_usage():
     """
@@ -34,7 +35,7 @@ def example_basic_usage():
         theoretic=True
     )
     
-    plt.savefig('Option_price_theoretic.png', dpi=150, bbox_inches='tight')
+    plt.savefig(generated_path('Option_price_theoretic.png'), dpi=150, bbox_inches='tight')
     plt.close()
     print("Wykres zapisany jako Option_price_theoretic.png")
 
@@ -79,7 +80,7 @@ def example_different_strike():
         axes[i].grid(True, alpha=0.3)
     
     plt.tight_layout()
-    plt.savefig('option_prices_strikes.png', dpi=150, bbox_inches='tight')
+    plt.savefig(generated_path('option_prices_strikes.png'), dpi=150, bbox_inches='tight')
     plt.close()
     print("Porównanie różnych cen wykonania zapisane jako example3_strikes.png")
 
@@ -122,7 +123,7 @@ def example_time_decay():
         axes[i].grid(True, alpha=0.3)
     
     plt.tight_layout()
-    plt.savefig('option_prices_time_decay.png', dpi=150, bbox_inches='tight')
+    plt.savefig(generated_path('option_prices_time_decay.png'), dpi=150, bbox_inches='tight')
     plt.close()
     print("Wpływ czasu na cenę opcji zapisany jako example4_time_decay.png")
 
@@ -180,7 +181,7 @@ def example_sensitivity_analysis():
         fig.delaxes(axes[-1])
 
 
-    plt.savefig('option_price_rho_sensitivity.png', dpi=150, bbox_inches='tight')
+    plt.savefig(generated_path('option_price_rho_sensitivity.png'), dpi=150, bbox_inches='tight')
     plt.close()
     print("Analiza wrażliwości na korelację zapisana jako example6_sensitivity.png")
 

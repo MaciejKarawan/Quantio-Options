@@ -1,0 +1,100 @@
+[
+  {
+    "old": "Main.py",
+    "sha256": "f9fee65f7e8216e058d0535e2bb9253244490a3476ae3427ece2971650b08da0",
+    "identical_content_at": [],
+    "action": "adapted-source/documentation"
+  },
+  {
+    "old": "Projekt 3  - IF1 2025.pdf",
+    "sha256": "f83b59f982f8064b7e3d636fc64a244a3398a3d034f8fcc0ca18f0a37b406b74",
+    "identical_content_at": [
+      "reports/Projekt 3  - IF1 2025.pdf"
+    ],
+    "action": "preserved-or-consolidated"
+  },
+  {
+    "old": "README.md",
+    "sha256": "cd5e1a76ac45f6fc364f556680db31112621cc1388dd801b25db4ae3f297045b",
+    "identical_content_at": [
+      "docs/import-readme.md"
+    ],
+    "action": "preserved-or-consolidated"
+  },
+  {
+    "old": "Simulation/examples_opcji.py",
+    "sha256": "23fd291769ac7a141aff961381c01464f53e1ac515e4fb5fd5ba9a4cf7fce0a7",
+    "identical_content_at": [],
+    "action": "adapted-source/documentation"
+  },
+  {
+    "old": "Simulation/hedging.py",
+    "sha256": "71153486ea2ac282423eff5625bdb9b1568cb21c92290fec4231c6ad34b6d1af",
+    "identical_content_at": [],
+    "action": "adapted-source/documentation"
+  },
+  {
+    "old": "Simulation/pricing.py",
+    "sha256": "6281d597716bcc45cedce8472819f3b69f3b6ee5c2c2d45ab0a8f092686c85b6",
+    "identical_content_at": [
+      "src/quanto_options/pricing.py"
+    ],
+    "action": "preserved-or-consolidated"
+  },
+  {
+    "old": "Simulation/simulation.py",
+    "sha256": "7f8de5f14cf4b3a08024062a550cc93bf2a9c69761be517ffae9a5005abfed66",
+    "identical_content_at": [
+      "src/quanto_options/simulation.py"
+    ],
+    "action": "preserved-or-consolidated"
+  },
+  {
+    "old": "data/usdpln_d.csv",
+    "sha256": "a98ad7fa3fee93291943ba13755f06feb4ea8ba5da098472a033539091963c11",
+    "identical_content_at": [
+      "data/raw/usdpln_d.csv"
+    ],
+    "action": "preserved-or-consolidated"
+  },
+  {
+    "old": "data/xauusd_d.csv",
+    "sha256": "99846edbe32e9035ef470656f5ac3728b631469354db91800695906ba2a3555b",
+    "identical_content_at": [
+      "data/raw/xauusd_d.csv"
+    ],
+    "action": "preserved-or-consolidated"
+  },
+  {
+    "old": "data_loader.py",
+    "sha256": "73a5d508a70de5fa6a5ceff24265d358618f14c15314deaf582c8c3e1ffb9eba",
+    "identical_content_at": [
+      "src/quanto_options/data_loader.py"
+    ],
+    "action": "preserved-or-consolidated"
+  },
+  {
+    "old": "generating plots/animation.py",
+    "sha256": "e4aa6b298e8c348dffb1332d306cb8c5bf3db8ce5e3d19fd8d4bae03c8a04b8e",
+    "identical_content_at": [],
+    "action": "adapted-source/documentation"
+  },
+  {
+    "old": "generating plots/dual_model_visualization.py",
+    "sha256": "8955044b99c4343175d98485601236b001b24fc9aabf55808a2c37f06624a4e2",
+    "identical_content_at": [],
+    "action": "adapted-source/documentation"
+  },
+  {
+    "old": "generating plots/option_plots_complete.py",
+    "sha256": "5e6fc0aa7bd3718d8d99facc8561b8114065fff49d1f83eed5de86b377cf8364",
+    "identical_content_at": [],
+    "action": "adapted-source/documentation"
+  },
+  {
+    "old": "generating plots/visualization.py",
+    "sha256": "137544ff599a877accd0f4b02d1b081a45fd878a0ef93f462f61549157b51981",
+    "identical_content_at": [],
+    "action": "adapted-source/documentation"
+  }
+]
